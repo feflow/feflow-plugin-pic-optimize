@@ -1,0 +1,45 @@
+{
+  "name": "feflow-plugin-pic-optimize",
+  "description": "IVWEB team pic optimize plugin.",
+  "version": "1.0.11",
+  "main": "lib/index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "commit": "git-cz ",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iv-web/feflow-plugin-deps.git"
+  },
+  "keywords": [
+    "feflow",
+    "plugin",
+    "pic",
+    "optimize",
+    "png",
+    "jpg"
+  ],
+  "author": "zeyqiao",
+  "license": "MIT",
+  "devDependencies": {
+    "commitizen": "^2.3.0",
+    "validate-commit-msg": "^2.11.1",
+    "conventional-changelog-cli": "^1.2.0",
+    "husky": "^0.13.1"
+  },
+  "dependencies": {
+    "node-cluster-queue": "^0.2.0",
+    "shelljs": "^0.7.8",
+    "optipng-bin": "^5.1.0",
+    "pngcrush-bin": "^4.0.0",
+    "pngquant-bin": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/iv-web/feflow-plugin-deps/issues"
+  },
+  "homepage": "https://github.com/iv-web/feflow-plugin-deps#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}

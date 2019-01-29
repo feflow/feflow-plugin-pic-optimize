@@ -1,7 +1,7 @@
 {
   "name": "feflow-plugin-pic-optimize",
   "description": "IVWEB team pic optimize plugin.",
-  "version": "1.0.11",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "scripts": {
     "commitmsg": "validate-commit-msg",

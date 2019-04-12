@@ -27,7 +27,6 @@
     "commitizen": "^2.3.0",
     "conventional-changelog-cli": "^1.2.0",
     "husky": "^0.13.1",
-    "svgo": "^1.2.1",
     "validate-commit-msg": "^2.11.1"
   },
   "dependencies": {
@@ -35,7 +34,8 @@
     "shelljs": "^0.7.8",
     "optipng-bin": "^5.1.0",
     "pngcrush-bin": "^4.0.0",
-    "pngquant-bin": "^5.0.1"
+    "pngquant-bin": "^5.0.1",
+    "svgo": "^1.2.1"
   },
   "bugs": {
     "url": "https://github.com/iv-web/feflow-plugin-deps/issues"

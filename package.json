@@ -1,17 +1,17 @@
 {
   "name": "feflow-plugin-pic-optimize",
   "description": "IVWEB team pic optimize plugin.",
-  "version": "0.0.2",
+  "version": "1.0.15",
   "main": "lib/index.js",
   "scripts": {
     "commitmsg": "validate-commit-msg",
     "commit": "git-cz ",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "test": "node test/index.js"
+    "test": "tsc && node ./test/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iv-web/feflow-plugin-deps.git"
+    "url": "git+https://github.com/feflow/feflow-plugin-pic-optimize.git"
   },
   "keywords": [
     "feflow",
@@ -19,28 +19,34 @@
     "pic",
     "optimize",
     "png",
-    "jpg"
+    "jpg",
+    "gif",
+    "svg"
   ],
   "author": "zeyqiao",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^11.13.4",
     "commitizen": "^2.3.0",
     "conventional-changelog-cli": "^1.2.0",
     "husky": "^0.13.1",
     "validate-commit-msg": "^2.11.1"
   },
   "dependencies": {
+    "gifsicle": "^4.0.1",
+    "jpegtran-bin": "^4.0.0",
+    "mozjpeg": "^6.0.1",
     "node-cluster-queue": "^0.2.0",
-    "shelljs": "^0.7.8",
     "optipng-bin": "^5.1.0",
     "pngcrush-bin": "^4.0.0",
     "pngquant-bin": "^5.0.1",
+    "shelljs": "^0.7.8",
     "svgo": "^1.2.1"
   },
   "bugs": {
-    "url": "https://github.com/iv-web/feflow-plugin-deps/issues"
+    "url": "https://github.com/feflow/feflow-plugin-pic-optimize/issues"
   },
-  "homepage": "https://github.com/iv-web/feflow-plugin-deps#readme",
+  "homepage": "https://github.com/feflow/feflow-plugin-pic-optimize#readme",
   "directories": {
     "lib": "lib"
   }
